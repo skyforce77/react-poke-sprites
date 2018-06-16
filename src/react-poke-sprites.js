@@ -6,11 +6,12 @@ import pokemonNumberToName from 'pokemon-gif/lib/pokedex-number-to-name';
 
 class PokeSprite extends React.Component {
 	render() {
-		const { pokemon, className } = this.props;
+		const { pokemon, shiny, className } = this.props;
 		const name = typeof pokemon === 'string' ? pokemon : pokemonNumberToName[pokemon];
+		const isShiny = typeof shiny === 'boolean' ? shiny : false;
 		return (
 			<img
-				src={pokemonGif(name)}
+				src={pokemonGif(name, isShiny)}
 				alt={name}
 				className={className}
 			/>
