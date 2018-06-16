@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anshumanv/react-poke-sprites.git"
+    "url": "git+https://github.com/skyforce77/react-poke-sprites.git"
   },
   "keywords": [
     "react",
@@ -23,11 +23,11 @@
   "author": "anshumanv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anshumanv/react-poke-sprites/issues"
+    "url": "https://github.com/skyforce77/react-poke-sprites/issues"
   },
-  "homepage": "https://github.com/anshumanv/react-poke-sprites#readme",
+  "homepage": "https://github.com/skyforce77/react-poke-sprites#readme",
   "dependencies": {
-    "pokemon-gif": "^1.0.9",
+    "pokemon-gif": "skyforce77/pokemon-gif",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "webpack": "^3.10.0"
